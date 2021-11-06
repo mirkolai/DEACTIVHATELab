@@ -1,0 +1,288 @@
+table,tr,td {
+  border: 1px solid black;
+	 text-align: center; 
+    vertical-align: middle;
+}
+
+/* sovrascrivere stile di default bootstrap */
+a,a:visited,a:hover,a:active {
+    color: white !important;
+    padding: 4px;
+}
+.a-card-header,a.a-card-header:visited,a.a-card-header:hover,a.a-card-header:active{
+  color: #343a40 !important;
+  padding: 4px;
+  font-weight: bold;
+}
+small{
+    font-size: 1.5rem !important;
+}
+
+/* definizione posizione footer*/
+footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* definizione navbar footer*/
+
+.navbar-brand, .navbar-tabs {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+}
+.navbar-brand img {
+    height: 100%;
+    max-height: initial;
+    max-width: initial;
+    width: auto;
+}
+
+.nav-container{
+    width: 100%;
+    max-width:100%;
+
+}
+
+/* card index di ugual dimension */
+.card{
+
+    height: 100%;
+}
+
+
+
+
+
+
+/* definizione del tooltip*/
+.tooltip{
+    opacity: 0;
+}
+.tooltip-inner{
+    max-width: 350px;
+    border-radius: 10%;
+    padding: 2px;
+    background-color: #fdfdfe;
+    color: #343a40;
+    border-color: #c60000;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/*definizione punto info per tooltip*/
+.circle {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 1rem;
+    text-align: center;
+}
+
+/*definizione bottoni*/
+.btn-primary.btn-custom-login-cookie {
+    background-color: #c60000 !important;
+    border-color: #343a40 !important;
+    border-width: 5px !important;
+    padding: 2px;
+}
+.btn-primary.btn-custom-login-mail{
+    background-color: #c60000 !important;
+    border-color: #ffffff !important;
+    border-width: 5px !important;
+    padding: 2px;
+}
+
+
+/* Alcune varianti di colori utilizzate*/
+.red-background-white-border {
+    background-color:#c60000;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    color: white;
+
+}
+.red-background-black-border {
+    background-color:#c60000;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #343a40;
+    color: white;
+
+}
+.black-background {
+    background-color:#343a40;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    padding: 4px;
+
+
+}
+.white-background {
+    background-color:#ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #343a40;
+    color: #343a40;
+    padding: 4px;
+
+
+}
+.white {color:#ffffff;}
+.black {color:#343a40;}
+
+.card-header {
+    background-color:#343a40;
+    color: white;
+
+
+}
+
+
+.alert {
+    animation: autoHide 0s ease-in 2s forwards;
+    z-index: 999999;
+    position: absolute;
+    top: 5px;
+    left: 40%;
+    right: 40%;
+}
+@keyframes autoHide {
+    to {
+        visibility: hidden;
+        display: none;
+        height: 0;
+        position: relative;
+        clear: both;
+        padding:0;
+        margin: 0;
+        border: 0;
+    }
+}
+
+
+div.btn{
+    height: 5em;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+  /*annotazione*/
+  .value-0{
+    background-color:#ffffff !important;
+    margin-right: 10px;
+  }
+  .value-1{
+    background-color:#fee0d2 !important;
+  }
+  .value-2{
+    background-color:#fcbba1 !important;
+  }
+  .value-3{
+    background-color:#fc9272 !important;
+  }
+  .value-4{
+    background-color:#fb6a4a !important;
+  }
+  .value-5{
+    background-color:#ef3b2c !important;
+  }
+  .value-6{
+    background-color:#cb181d !important;
+  }
+  .value-7{
+    background-color:#99000d !important;
+  }
+  .value-out{
+    background-color:#6d6e74 !important;
+    margin-left:20px !important;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4em; 
+  }
+  .active{
+    border-color: #343a40 !important;
+    border-width: 5px !important;
+  }
+
+  .share_button{
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    font-size: 0.5rem;
+  }
+  .error_message{
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+  }
+
+  .card-header-lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #343a40;
+  }
+  sottolineato {
+    text-decoration: underline;
+  }
+
+  .intro{
+
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:#343a40;
+
+  }
+  .guida{
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:#343a40;
+  }
+  .giustificato{
+    text-align:justify;
+    text-justify: inter-word;
+    text-align-last:justify;
+    /* for IE9 */
+    -ms-text-align-last:justify;
+    }
+
+    .img-fluid{
+      max-width: 80%; 
+      height: auto;
+      
+    }
+
+.navbar {
+  overflow:hidden;
+  background: #343a40;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:3;
+}
+
+body{
+     padding-top: 100px;
+}
+
